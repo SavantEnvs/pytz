@@ -1,0 +1,9 @@
+project: savantenvs/pytz
+target: zdump
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/zdump/testsuite
+cmds:
+  - cmd: /mayhem/mayhem/out/zdump -v -c 1900,2100 @@
+    afl: true
+    timeout: 10

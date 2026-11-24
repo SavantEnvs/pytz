@@ -1,0 +1,9 @@
+project: savantenvs/pytz
+target: fuzz_tzfile
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_tzfile/testsuite
+cmds:
+  - cmd: /mayhem/mayhem/out/fuzz_tzfile
+    libfuzzer: true
+    timeout: 5

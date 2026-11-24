@@ -1,0 +1,10 @@
+Rule	EU	1977	1980	-	Apr	Sun>=1	 1:00u	1:00	S
+Rule	EU	1977	only	-	Sep	lastSun	 1:00u	0	-
+Rule	EU	1978	only	-	Oct	 1	 1:00u	0	-
+Rule	EU	1979	1995	-	Sep	lastSun	 1:00u	0	-
+Rule	EU	1981	max	-	Mar	lastSun	 1:00u	1:00	S
+Rule	EU	1996	max	-	Oct	lastSun	 1:00u	0	-
+Zone	Europe/London	-0:01:15 -	LMT	1847 Dec  1
+			 0:00	-	GMT	1968 Oct 27
+			 1:00	-	BST	1971 Oct 31  2:00u
+			 0:00	EU	GMT/BST

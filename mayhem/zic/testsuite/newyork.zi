@@ -1,0 +1,10 @@
+Rule	US	1918	1919	-	Mar	lastSun	2:00	1:00	D
+Rule	US	1918	1919	-	Oct	lastSun	2:00	0	S
+Rule	US	1967	2006	-	Oct	lastSun	2:00	0	S
+Rule	US	1967	1973	-	Apr	lastSun	2:00	1:00	D
+Rule	US	1987	2006	-	Apr	Sun>=1	2:00	1:00	D
+Rule	US	2007	max	-	Mar	Sun>=8	2:00	1:00	D
+Rule	US	2007	max	-	Nov	Sun>=1	2:00	0	S
+Zone America/New_York	-4:56:02 -	LMT	1883 Nov 18 17:00u
+			-5:00	US	E%sT
+Link	America/New_York	US/Eastern

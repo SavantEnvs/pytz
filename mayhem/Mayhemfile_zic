@@ -1,0 +1,9 @@
+project: savantenvs/pytz
+target: zic
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/zic/testsuite
+cmds:
+  - cmd: /mayhem/mayhem/out/zic @@
+    afl: true
+    timeout: 10
